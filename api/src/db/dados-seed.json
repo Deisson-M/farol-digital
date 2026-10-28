@@ -1,0 +1,197 @@
+{
+  "usuarios": [
+    { "nome": "Administração Farol", "email": "admin@farol.dev", "papel": "admin" },
+    { "nome": "Coordenação de Ensino", "email": "coordenacao@farol.dev", "papel": "coordenador" },
+    { "nome": "Professora Marina Costa", "email": "professora@farol.dev", "papel": "professor", "situacaoDocente": "aprovado", "areaAtuacao": "Cultura e segurança digital" },
+    { "nome": "Professor Henrique Prado", "email": "professor2@farol.dev", "papel": "professor", "situacaoDocente": "aprovado", "areaAtuacao": "Produtividade e planilhas" },
+    { "nome": "Professor Rafael Nunes", "email": "professor.pendente@farol.dev", "papel": "professor", "situacaoDocente": "pendente", "areaAtuacao": "Programação" },
+    { "nome": "Lucas Pereira", "email": "aluno@farol.dev", "papel": "estudante" },
+    { "nome": "Juliana Alves", "email": "aluna2@farol.dev", "papel": "estudante" },
+    { "nome": "Pedro Martins", "email": "aluno3@farol.dev", "papel": "estudante" }
+  ],
+
+  "cursos": [
+    { "titulo": "Conhecendo o computador", "nivel": "iniciante", "minutos": 120, "destaque": true, "descricao": "Descubra para que serve cada parte do computador e como ligar, desligar e cuidar do equipamento." },
+    { "titulo": "Mouse, teclado e janelas", "nivel": "iniciante", "minutos": 90, "descricao": "Exercícios práticos de clique, arrastar, digitação e uso de janelas e menus." },
+    { "titulo": "Arquivos e pastas", "nivel": "iniciante", "minutos": 90, "descricao": "Aprenda a criar, salvar, renomear, encontrar e organizar seus arquivos." },
+    { "titulo": "Primeiros passos na internet", "nivel": "iniciante", "minutos": 120, "destaque": true, "descricao": "O que é um navegador, como fazer buscas e como entender o endereço de um site." },
+    { "titulo": "Serviços públicos digitais", "nivel": "iniciante", "minutos": 150, "descricao": "Use o gov.br e outros serviços on-line para resolver pendências sem sair de casa." },
+    { "titulo": "Comunicação digital responsável", "nivel": "iniciante", "minutos": 90, "descricao": "Boas práticas em mensagens, grupos e redes sociais para uma convivência respeitosa." },
+    { "titulo": "Celular Android sem mistério", "nivel": "iniciante", "minutos": 120, "destaque": true, "descricao": "Configure o seu smartphone, instale aplicativos com segurança e organize a tela inicial." },
+    { "titulo": "E-mail do zero", "nivel": "iniciante", "minutos": 90, "descricao": "Crie uma conta de e-mail, escreva, responda, anexe arquivos e identifique spam." },
+    { "titulo": "Videochamadas e reuniões on-line", "nivel": "iniciante", "minutos": 90, "descricao": "Participe de chamadas de vídeo, use microfone e câmera e compartilhe a tela." },
+    { "titulo": "Bancos e apps financeiros no celular", "nivel": "iniciante", "minutos": 120, "descricao": "Use o aplicativo do banco, consulte extratos e faça transferências com cuidado." },
+    { "titulo": "Recursos de acessibilidade do seu aparelho", "nivel": "iniciante", "minutos": 90, "descricao": "Leitor de tela, ampliação, legendas e comandos de voz no celular e no computador." },
+    { "titulo": "Navegadores e sites confiáveis", "nivel": "intermediario", "minutos": 120, "descricao": "Sinais de que um site é seguro e como evitar páginas falsas e anúncios enganosos." },
+    { "titulo": "Downloads e atualizações seguras", "nivel": "intermediario", "minutos": 90, "descricao": "Baixe arquivos de fontes confiáveis e mantenha sistema e aplicativos sempre atualizados." },
+    { "titulo": "Seus dados pessoais e a LGPD", "nivel": "intermediario", "minutos": 150, "destaque": true, "descricao": "Entenda o que são dados pessoais e quais direitos a Lei Geral de Proteção de Dados garante." },
+    { "titulo": "Configurações de privacidade em apps", "nivel": "intermediario", "minutos": 120, "descricao": "Revise permissões de localização, câmera e contatos nos aplicativos do dia a dia." },
+    { "titulo": "Senhas fortes e gerenciadores", "nivel": "intermediario", "minutos": 90, "descricao": "Monte senhas difíceis de adivinhar e guarde todas elas em um gerenciador de senhas." },
+    { "titulo": "Autenticação em dois fatores", "nivel": "intermediario", "minutos": 90, "descricao": "Ative a verificação em duas etapas no e-mail, nas redes sociais e no banco." },
+    { "titulo": "Golpes por mensagem e telefone", "nivel": "intermediario", "minutos": 120, "descricao": "Identifique golpes por WhatsApp, SMS e ligações e saiba o que fazer em cada caso." },
+    { "titulo": "O que é inteligência artificial", "nivel": "intermediario", "minutos": 120, "descricao": "Como a IA funciona por dentro e onde ela já aparece na sua rotina." },
+    { "titulo": "Editor de textos e documentos", "nivel": "intermediario", "minutos": 150, "descricao": "Formate textos, insira imagens e tabelas e exporte documentos em PDF." },
+    { "titulo": "Planilhas eletrônicas básicas", "nivel": "intermediario", "minutos": 180, "destaque": true, "descricao": "Células, fórmulas simples, somas e gráficos para organizar contas e listas." },
+    { "titulo": "Armazenamento em nuvem e backup", "nivel": "intermediario", "minutos": 120, "descricao": "Guarde fotos e documentos na nuvem, sincronize aparelhos e faça cópias de segurança." },
+    { "titulo": "Fake news e checagem de fatos", "nivel": "intermediario", "minutos": 120, "destaque": true, "descricao": "Técnicas simples para verificar notícias, imagens e áudios antes de compartilhar." },
+    { "titulo": "Trabalho remoto e ferramentas colaborativas", "nivel": "intermediario", "minutos": 150, "descricao": "Documentos compartilhados, agendas, quadros de tarefas e boas práticas de home office." },
+    { "titulo": "Segurança digital para famílias", "nivel": "intermediario", "minutos": 120, "descricao": "Controle parental, tempo de tela e conversas sobre riscos on-line com crianças e jovens." },
+    { "titulo": "Compras e pagamentos seguros", "nivel": "avancado", "minutos": 150, "preco": 6990, "descricao": "Compre on-line com tranquilidade, use Pix e cartões virtuais e reconheça lojas falsas." },
+    { "titulo": "Uso crítico e ético de IA", "nivel": "avancado", "minutos": 150, "preco": 8990, "destaque": true, "descricao": "Avalie respostas de IA, combata a desinformação e proteja seus dados ao usar essas ferramentas." },
+    { "titulo": "Segurança de redes domésticas e Wi-Fi", "nivel": "avancado", "minutos": 180, "preco": 9990, "descricao": "Configure o roteador, troque senhas padrão e proteja os dispositivos conectados da casa." },
+    { "titulo": "LGPD na prática para pequenos negócios", "nivel": "avancado", "minutos": 240, "preco": 14990, "descricao": "Mapeie dados, organize consentimentos e responda aos pedidos dos titulares." },
+    { "titulo": "IA generativa aplicada ao trabalho", "nivel": "avancado", "minutos": 210, "preco": 12990, "descricao": "Ganhe produtividade com IA generativa sem expor informações sigilosas da empresa." },
+    { "titulo": "Excel avançado para o dia a dia", "nivel": "avancado", "minutos": 240, "preco": 11990, "descricao": "PROCV, tabelas dinâmicas, formatação condicional e painéis para tomar decisões." },
+    { "titulo": "Criação de conteúdo para redes sociais", "nivel": "avancado", "minutos": 200, "preco": 9490, "destaque": true, "descricao": "Planeje publicações, edite imagens e vídeos curtos e acompanhe os resultados." },
+    { "titulo": "Introdução à programação com Python", "nivel": "avancado", "minutos": 300, "preco": 15990, "descricao": "Variáveis, condições, repetições e funções em pequenos projetos práticos." },
+    { "titulo": "Empreendedorismo digital e vendas on-line", "nivel": "avancado", "minutos": 240, "preco": 13990, "descricao": "Monte sua vitrine virtual, use marketplaces e atenda clientes pelos canais digitais." }
+  ],
+
+  "trilhas": [
+    {
+      "titulo": "Primeiros passos na informática",
+      "tema": "Informática básica",
+      "nivel": "iniciante",
+      "descricao": "Ponto de partida para quem nunca usou um computador: conheça o equipamento, pratique com mouse e teclado e organize seus arquivos.",
+      "objetivos": ["Reconhecer as partes do computador", "Usar mouse, teclado e janelas com segurança", "Organizar arquivos em pastas"],
+      "cursos": [{ "titulo": "Conhecendo o computador" }, { "titulo": "Mouse, teclado e janelas" }, { "titulo": "Arquivos e pastas" }]
+    },
+    {
+      "titulo": "Celular e comunicação no dia a dia",
+      "tema": "Comunicação",
+      "nivel": "iniciante",
+      "descricao": "Domine o smartphone, crie seu e-mail e participe de videochamadas com familiares, amigos e colegas de trabalho.",
+      "objetivos": ["Configurar e usar um smartphone", "Enviar e organizar e-mails", "Participar de videochamadas"],
+      "cursos": [
+        { "titulo": "Celular Android sem mistério" },
+        { "titulo": "E-mail do zero" },
+        { "titulo": "Videochamadas e reuniões on-line" },
+        { "titulo": "Recursos de acessibilidade do seu aparelho", "obrigatorio": false, "requerAnteriores": false }
+      ]
+    },
+    {
+      "titulo": "Inclusão e cidadania digital",
+      "tema": "Cidadania digital",
+      "nivel": "iniciante",
+      "descricao": "Use a internet para exercer seus direitos, acessar serviços públicos e conversar de forma respeitosa.",
+      "objetivos": ["Navegar na internet com autonomia", "Acessar serviços públicos on-line", "Comunicar-se com respeito em ambientes digitais"],
+      "cursos": [
+        { "titulo": "Primeiros passos na internet" },
+        { "titulo": "Serviços públicos digitais" },
+        { "titulo": "Comunicação digital responsável", "obrigatorio": false, "requerAnteriores": false }
+      ]
+    },
+    {
+      "titulo": "Navegação segura na internet",
+      "tema": "Segurança digital",
+      "nivel": "intermediario",
+      "descricao": "Aprenda a diferenciar sites confiáveis de páginas falsas, baixar arquivos sem riscos e manter seus aparelhos atualizados.",
+      "objetivos": ["Avaliar a confiabilidade de um site", "Baixar arquivos com segurança", "Manter sistemas e aplicativos atualizados"],
+      "cursos": [{ "titulo": "Primeiros passos na internet" }, { "titulo": "Navegadores e sites confiáveis" }, { "titulo": "Downloads e atualizações seguras" }]
+    },
+    {
+      "titulo": "Privacidade e proteção de dados",
+      "tema": "Privacidade",
+      "nivel": "intermediario",
+      "descricao": "Saiba quais dados você compartilha, quais são seus direitos pela LGPD e como ajustar a privacidade dos aplicativos.",
+      "objetivos": ["Reconhecer dados pessoais e sensíveis", "Conhecer os direitos do titular na LGPD", "Configurar a privacidade em aplicativos"],
+      "cursos": [{ "titulo": "Seus dados pessoais e a LGPD" }, { "titulo": "Configurações de privacidade em apps" }]
+    },
+    {
+      "titulo": "Senhas, autenticação e segurança de contas",
+      "tema": "Segurança digital",
+      "nivel": "intermediario",
+      "descricao": "Proteja suas contas com senhas fortes, um gerenciador de senhas e a verificação em duas etapas.",
+      "objetivos": ["Criar senhas fortes e únicas", "Usar um gerenciador de senhas", "Ativar a autenticação em dois fatores"],
+      "cursos": [{ "titulo": "Senhas fortes e gerenciadores" }, { "titulo": "Autenticação em dois fatores" }]
+    },
+    {
+      "titulo": "Produtividade com ferramentas digitais",
+      "tema": "Produtividade",
+      "nivel": "intermediario",
+      "descricao": "Textos, planilhas, nuvem e ferramentas colaborativas para estudar e trabalhar com mais organização.",
+      "objetivos": ["Produzir documentos bem formatados", "Organizar informações em planilhas", "Trabalhar em equipe usando a nuvem"],
+      "criterio": "percentual_minimo",
+      "percentualMinimo": 75,
+      "cursos": [
+        { "titulo": "Editor de textos e documentos" },
+        { "titulo": "Planilhas eletrônicas básicas" },
+        { "titulo": "Armazenamento em nuvem e backup", "requerAnteriores": false },
+        { "titulo": "Trabalho remoto e ferramentas colaborativas" }
+      ]
+    },
+    {
+      "titulo": "Informação confiável e família conectada",
+      "tema": "Cidadania digital",
+      "nivel": "intermediario",
+      "descricao": "Combata a desinformação, cuide da segurança das crianças e jovens da casa e promova um ambiente on-line saudável.",
+      "objetivos": ["Checar notícias antes de compartilhar", "Configurar controles parentais", "Conversar sobre riscos on-line em família"],
+      "cursos": [
+        { "titulo": "Fake news e checagem de fatos" },
+        { "titulo": "Segurança digital para famílias" },
+        { "titulo": "Comunicação digital responsável", "obrigatorio": false, "requerAnteriores": false }
+      ]
+    },
+    {
+      "titulo": "Finanças digitais com segurança",
+      "tema": "Finanças",
+      "nivel": "intermediario",
+      "descricao": "Use o banco pelo celular, pague com Pix e faça compras on-line sem cair em golpes.",
+      "objetivos": ["Usar aplicativos bancários com segurança", "Reconhecer golpes financeiros", "Comprar e pagar on-line com tranquilidade"],
+      "cursos": [
+        { "titulo": "Bancos e apps financeiros no celular" },
+        { "titulo": "Golpes por mensagem e telefone" },
+        { "titulo": "Compras e pagamentos seguros" }
+      ]
+    },
+    {
+      "titulo": "Prevenção de golpes e fraudes digitais",
+      "tema": "Segurança digital",
+      "nivel": "avancado",
+      "descricao": "Reconheça golpes por mensagem, telefone e sites falsos e aprenda a reagir rápido diante de uma fraude.",
+      "objetivos": ["Reconhecer sinais de golpes", "Agir corretamente diante de uma tentativa de fraude", "Comprar e pagar on-line com segurança"],
+      "cursos": [{ "titulo": "Senhas fortes e gerenciadores" }, { "titulo": "Golpes por mensagem e telefone" }, { "titulo": "Compras e pagamentos seguros" }]
+    },
+    {
+      "titulo": "Inteligência artificial e cidadania digital",
+      "tema": "Inteligência artificial",
+      "nivel": "avancado",
+      "descricao": "Entenda o que é IA, onde ela aparece no cotidiano e como usá-la de forma crítica, ética e segura.",
+      "objetivos": ["Explicar o que é inteligência artificial", "Avaliar respostas geradas por IA", "Usar IA respeitando privacidade e ética"],
+      "cursos": [{ "titulo": "O que é inteligência artificial" }, { "titulo": "Uso crítico e ético de IA" }, { "titulo": "IA generativa aplicada ao trabalho", "obrigatorio": false }]
+    },
+    {
+      "titulo": "Carreira e negócios digitais",
+      "tema": "Carreira",
+      "nivel": "avancado",
+      "descricao": "Planilhas profissionais, presença nas redes e vendas on-line para quem quer empreender ou crescer na carreira.",
+      "objetivos": ["Analisar dados com planilhas avançadas", "Produzir conteúdo para redes sociais", "Vender produtos e serviços pela internet"],
+      "cursos": [
+        { "titulo": "Planilhas eletrônicas básicas" },
+        { "titulo": "Excel avançado para o dia a dia" },
+        { "titulo": "Criação de conteúdo para redes sociais", "requerAnteriores": false },
+        { "titulo": "Empreendedorismo digital e vendas on-line" }
+      ]
+    },
+    {
+      "titulo": "Primeiros passos em programação",
+      "tema": "Tecnologia",
+      "nivel": "avancado",
+      "descricao": "Entenda como os computadores seguem instruções e escreva seus primeiros programas em Python.",
+      "objetivos": ["Compreender a lógica por trás dos programas", "Escrever programas simples em Python", "Relacionar programação e inteligência artificial"],
+      "cursos": [{ "titulo": "O que é inteligência artificial", "obrigatorio": false, "requerAnteriores": false }, { "titulo": "Introdução à programação com Python" }]
+    }
+  ],
+
+  "matriculas": [
+    { "email": "aluno@farol.dev", "curso": "Conhecendo o computador", "situacao": "concluida", "progresso": 100 },
+    { "email": "aluno@farol.dev", "curso": "Mouse, teclado e janelas", "situacao": "ativa", "progresso": 45 },
+    { "email": "aluno@farol.dev", "curso": "Primeiros passos na internet", "situacao": "concluida", "progresso": 100 },
+    { "email": "aluno@farol.dev", "curso": "Celular Android sem mistério", "situacao": "ativa", "progresso": 60 },
+    { "email": "aluno@farol.dev", "curso": "Senhas fortes e gerenciadores", "situacao": "ativa", "progresso": 30 },
+    { "email": "aluna2@farol.dev", "curso": "Editor de textos e documentos", "situacao": "concluida", "progresso": 100 },
+    { "email": "aluna2@farol.dev", "curso": "Planilhas eletrônicas básicas", "situacao": "concluida", "progresso": 100 },
+    { "email": "aluna2@farol.dev", "curso": "Armazenamento em nuvem e backup", "situacao": "ativa", "progresso": 50 },
+    { "email": "aluna2@farol.dev", "curso": "Fake news e checagem de fatos", "situacao": "ativa", "progresso": 20 }
+  ]
+}

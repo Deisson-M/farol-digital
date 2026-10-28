@@ -1,0 +1,29 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: farol-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: farol_digital
+      MYSQL_USER: farol
+      MYSQL_PASSWORD: farol_dev_senha
+      MYSQL_ROOT_PASSWORD: farol_root_dev
+      TZ: UTC
+    # log-bin-trust-function-creators: necessário para a migration criar os triggers
+    # append-only da auditoria com um usuário sem privilégio SUPER.
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_0900_ai_ci
+      - --log-bin-trust-function-creators=1
+    ports:
+      - '3306:3306'
+    volumes:
+      - farol-mysql:/var/lib/mysql
+    healthcheck:
+      test: ['CMD', 'mysqladmin', 'ping', '-h', 'localhost', '-ufarol', '-pfarol_dev_senha']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  farol-mysql:
