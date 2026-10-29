@@ -95,7 +95,7 @@ export async function construirApp({ db, logger = true }: OpcoesApp) {
     },
   });
 
-  app.get('/health', { schema: { hide: true } }, async () => ({ status: 'ok' }));
+  app.get('/health', { hide: true }, async () => ({ status: 'ok' }));
 
   const notificador: Notificador = {
     // Sem provedor de e-mail configurado: o link aparece apenas no log do servidor (desenvolvimento).
