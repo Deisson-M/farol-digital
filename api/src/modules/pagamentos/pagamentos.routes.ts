@@ -103,8 +103,14 @@ export const pagamentosRoutes: FastifyPluginAsyncZod<{ service: PagamentosServic
     });
 
     webhook.post(
-      '/webhooks/pagamentos/simulado',
-      { schema: { tags: ['pagamentos'], hide: true, body: webhookBody } },
+  '/webhooks/pagamentos/simulado',
+  {
+    schema: {
+      tags: ['pagamentos'],
+      body: webhookBody
+    },
+    hide: true
+  },
       async (request, reply) => {
         const corpo = (request as unknown as { corpoBruto?: string }).corpoBruto ?? '';
         const assinatura = request.headers['x-assinatura'];
