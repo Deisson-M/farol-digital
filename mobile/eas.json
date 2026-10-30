@@ -9,8 +9,8 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://SUA-API.onrender.com/api/v1",
-        "EXPO_PUBLIC_SITE_URL": "https://SEU-USUARIO.github.io/SEU-REPOSITORIO"
+        "EXPO_PUBLIC_API_URL": "https://farol-digital.onrender.com/api/v1",
+        "EXPO_PUBLIC_SITE_URL": "https://deisson-m.github.io/farol-digital"
       }
     }
   }
